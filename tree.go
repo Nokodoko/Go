@@ -1,3 +1,4 @@
+//pending refactor to select statements instead of if/else statements
 package main
 
 //structs
@@ -71,4 +72,6 @@ func main() {
 		insert(4).
 		insert(5).
 		insert(6)
+
+	println(t.exists.node(5))
 }
