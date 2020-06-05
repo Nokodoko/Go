@@ -64,7 +64,7 @@ func (n *Node) printNode() {
 }
 
 func main() {
-	t := Tree{}
+	var t tree
 
 	t.insert(1).
 		insert(2).
